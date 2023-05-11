@@ -1,10 +1,25 @@
 body{
-    background-color: rgb(176, 151, 199);
-    color: antiquewhite;
+    background-color: rgb(14, 13, 13);
+    color: rgba(255, 255, 255, 0.555);
 }
 h2{
     text-align: center;
 }
-.filme1{
+    h3{text-align: center;}
+
+.filme{
     text-align: center;
+    align-items: center;
+ width: 400px;
+display: block;
+padding: 30px;}
+
+.cartaz-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.cartaz{
+     width: 40%;
+     height: 200px;
 }
